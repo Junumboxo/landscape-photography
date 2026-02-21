@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>Photos</h1>
+
+{{ range .Pages }}
+  <div style="margin-bottom:40px;">
+    <h2>{{ .Title }}</h2>
+    <img src="{{ .Params.image }}" style="max-width:600px;">
+    <p>{{ .Content }}</p>
+    <small>
+      Year: {{ .Params.year }} |
+      Location: {{ range .Params.locations }}{{ . }} {{ end }}
+    </small>
+  </div>
+{{ end }}
+
+{{ end }}

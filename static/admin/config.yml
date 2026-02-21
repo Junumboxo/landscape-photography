@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: Junumboxo/landscape-photography
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "photos"
+    label: "Photos"
+    folder: "content/photos"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Year", name: "year", widget: "number" }
+      - { label: "Location", name: "locations", widget: "list" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Comment", name: "body", widget: "markdown" }
