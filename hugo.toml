@@ -1,5 +1,5 @@
 # baseURL: update this to your Cloudflare Pages URL (or custom domain) once set up.
-baseURL = "https://landscapes.pages.dev/"
+baseURL = "https://landscape-photography.pages.dev/"
 languageCode = "en-us"
 title = "Landscapes from over the world"
 theme = "PaperMod"
