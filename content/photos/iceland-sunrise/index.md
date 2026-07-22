@@ -1,6 +1,6 @@
 ---
 title: The Ring Road Chronicles - Gullfoss
-date: 2025-05-02T15:00
+date: 2025-05-02
 locations:
   - Iceland
 years:
