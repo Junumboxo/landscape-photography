@@ -1,10 +1,13 @@
 ---
 title: "Sunrise in Iceland"
 date: 2024-06-15
-year: 2024
 locations: ["Iceland"]
-image: "/images/iceland-sunrise.jpg"
+years: ["2024"]
 draft: false
+cover:
+  image: "cover.jpg"
+  alt: "Sunrise over an Icelandic landscape"
+  relative: true
 ---
 
 Cold wind, golden light, absolute silence.

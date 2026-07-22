@@ -1,16 +1,74 @@
 {{ define "main" }}
-<h1>Photos</h1>
+<style>
+  .gallery-header { margin: 1.5rem 0 0.5rem; }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  .gallery-card {
+    border-radius: var(--radius, 12px);
+    overflow: hidden;
+    background: var(--entry);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .gallery-card:hover { transform: translateY(-4px); box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18); }
+  .gallery-card .gallery-img { display: block; }
+  .gallery-card img { width: 100%; height: 220px; object-fit: cover; display: block; }
+  .gallery-meta { padding: 0.85rem 1rem 1rem; }
+  .gallery-meta h2 { font-size: 1.05rem; margin: 0 0 0.5rem; }
+  .gallery-meta h2 a { color: inherit; }
+  .gallery-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .gallery-tags a {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    background: var(--tertiary);
+    color: var(--secondary);
+  }
+</style>
 
-{{ range .Pages }}
-  <div style="margin-bottom:40px;">
-    <h2>{{ .Title }}</h2>
-    <img src="{{ .Params.image }}" style="max-width:600px;">
-    <p>{{ .Content }}</p>
-    <small>
-      Year: {{ .Params.year }} |
-      Location: {{ range .Params.locations }}{{ . }} {{ end }}
-    </small>
-  </div>
-{{ end }}
+<header class="gallery-header page-header">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+</header>
 
+<div class="gallery">
+  {{ range .Pages.ByDate.Reverse }}
+    {{ $p := . }}
+    <article class="gallery-card">
+      <a class="gallery-img" href="{{ $p.RelPermalink }}">
+        {{/* Resolve the cover image: front-matter cover.image → cover.* → first image resource. */}}
+        {{ $img := false }}
+        {{ with $p.Params.cover }}{{ with .image }}{{ $img = $p.Resources.GetMatch . }}{{ end }}{{ end }}
+        {{ if not $img }}{{ $img = $p.Resources.GetMatch "cover.*" }}{{ end }}
+        {{ if not $img }}{{ $img = $p.Resources.GetMatch "{*.jpg,*.jpeg,*.png,*.webp}" }}{{ end }}
+        {{ with $img }}
+          {{ $t := .Resize "560x webp q82" }}
+          {{ $t2 := .Resize "1120x webp q82" }}
+          <img
+            src="{{ $t.RelPermalink }}"
+            srcset="{{ $t.RelPermalink }} 560w, {{ $t2.RelPermalink }} 1120w"
+            sizes="(max-width: 600px) 100vw, 320px"
+            width="{{ $t.Width }}" height="{{ $t.Height }}"
+            loading="lazy"
+            alt="{{ with $p.Params.cover }}{{ .alt | default $p.Title }}{{ else }}{{ $p.Title }}{{ end }}">
+        {{ end }}
+      </a>
+      <div class="gallery-meta">
+        <h2><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h2>
+        <div class="gallery-tags">
+          {{ range $p.Params.locations }}
+            <a href="{{ (printf "/locations/%s/" (. | urlize)) | relLangURL }}">📍 {{ . }}</a>
+          {{ end }}
+          {{ range $p.Params.years }}
+            <a href="{{ (printf "/years/%s/" (. | urlize)) | relLangURL }}">🗓 {{ . }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+  {{ end }}
+</div>
 {{ end }}

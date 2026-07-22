@@ -1,10 +1,11 @@
-baseURL = "https://wonderful-naiad-8da76d.netlify.app/"
+# baseURL: update this to your Cloudflare Pages URL (or custom domain) once set up.
+baseURL = "https://landscapes.pages.dev/"
 languageCode = "en-us"
-title ="Landscapes from over the world"
+title = "Landscapes from over the world"
 theme = "PaperMod"
 
-[params]
-  author = "Tatiana Barbova"
+enableRobotsTXT = true
+enableGitInfo = true
 
 [pagination]
   pagerSize = 12
@@ -12,3 +13,50 @@ theme = "PaperMod"
 [taxonomies]
   location = "locations"
   year = "years"
+  tag = "tags"
+
+[params]
+  author = "Tatiana Barbova"
+  defaultTheme = "auto"        # respects the visitor's light/dark preference
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = false
+
+  # Landing text on the home page
+  [params.homeInfoParams]
+    Title = "Landscapes from over the world"
+    Content = "Photographs and the occasional story from the places I've stood still in. Browse by **location** or by **year**, or read the latest **posts**."
+
+  [params.assets]
+    disableHLJS = true
+
+# Top navigation
+[[menu.main]]
+  identifier = "photos"
+  name = "Photos"
+  url = "/photos/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "locations"
+  name = "Locations"
+  url = "/locations/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "years"
+  name = "Years"
+  url = "/years/"
+  weight = 40
+
+# Allow raw HTML in markdown (needed for some layouts)
+[markup.goldmark.renderer]
+  unsafe = true
