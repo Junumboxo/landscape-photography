@@ -4,7 +4,7 @@ backend:
   branch: main
   # base_url points at the OAuth handler (a small Cloudflare Worker — see docs).
   # Update the host below to your deployed worker URL.
-  base_url: https://landscapes-cms-auth.YOUR-SUBDOMAIN.workers.dev
+  base_url: https://landscapes-cms-auth.tatiana-barbova.workers.dev
 
 # Photos are page bundles, so media is stored alongside each entry by default.
 # These top-level values are the fallback for collections that don't override them.
