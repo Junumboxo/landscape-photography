@@ -1,13 +1,13 @@
 ---
-title: Sunrise in Iceland
-date: 2025-05-02
+title: The Ring Road Chronicles - Gullfoss
+date: 2025-05-02T15:00
 locations:
   - Iceland
 years:
   - '2025'
 cover:
   image: cover.jpg
-  alt: Sunrise over an Icelandic landscape
+  alt: ''
   relative: true
 draft: false
 ---
