@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>https://landscape-photography.pages.dev/posts/hello-world/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/iceland/</loc>
+    <loc>https://landscape-photography.pages.dev/tags/iceland/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://landscape-photography.pages.dev/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sunrise/</loc>
+    <loc>https://landscape-photography.pages.dev/tags/sunrise/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://landscape-photography.pages.dev/tags/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/years/2024/</loc>
+    <loc>https://landscape-photography.pages.dev/years/2024/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/locations/iceland/</loc>
+    <loc>https://landscape-photography.pages.dev/locations/iceland/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/locations/</loc>
+    <loc>https://landscape-photography.pages.dev/locations/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/photos/iceland-sunrise/</loc>
+    <loc>https://landscape-photography.pages.dev/photos/iceland-sunrise/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/years/</loc>
+    <loc>https://landscape-photography.pages.dev/years/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/photos/</loc>
+    <loc>https://landscape-photography.pages.dev/photos/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://landscape-photography.pages.dev/posts/</loc>
     <lastmod>2026-07-22T20:41:11+02:00</lastmod>
   </url>
 </urlset>

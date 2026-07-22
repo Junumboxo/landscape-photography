@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>2024 on Landscapes from over the world</title>
-    <link>http://localhost:1313/years/2024/</link>
+    <link>https://landscape-photography.pages.dev/years/2024/</link>
     <description>Recent content in 2024 on Landscapes from over the world</description>
     <generator>Hugo -- 0.164.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Jul 2026 20:41:11 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/years/2024/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://landscape-photography.pages.dev/years/2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sunrise in Iceland</title>
-      <link>http://localhost:1313/photos/iceland-sunrise/</link>
+      <link>https://landscape-photography.pages.dev/photos/iceland-sunrise/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photos/iceland-sunrise/</guid>
+      <guid>https://landscape-photography.pages.dev/photos/iceland-sunrise/</guid>
       <description>&lt;p&gt;Cold wind, golden light, absolute silence.&lt;/p&gt;</description>
     </item>
   </channel>

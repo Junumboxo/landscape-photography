@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Landscapes from over the world</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://landscape-photography.pages.dev/posts/</link>
     <description>Recent content in Posts on Landscapes from over the world</description>
     <generator>Hugo -- 0.164.0</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://landscape-photography.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chasing the Icelandic sunrise</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://landscape-photography.pages.dev/posts/hello-world/</link>
       <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://landscape-photography.pages.dev/posts/hello-world/</guid>
       <description>A short note on the morning behind the first photo in the gallery.</description>
     </item>
   </channel>
