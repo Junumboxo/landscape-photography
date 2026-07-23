@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🇮🇸 Iceland on Landscapes from over the world</title>
+    <link>http://localhost:1313/locations/-iceland/</link>
+    <description>Recent content in 🇮🇸 Iceland on Landscapes from over the world</description>
+    <generator>Hugo -- 0.164.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2026 20:41:11 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/locations/-iceland/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ring Road Chronicles - Gullfoss</title>
+      <link>http://localhost:1313/photos/iceland-sunrise/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/iceland-sunrise/</guid>
+      <description>&lt;p&gt;Cold wind, golden light, absolute silence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Magic on the icelandic south coast</title>
+      <link>http://localhost:1313/photos/magic-on-the-icelandic-south-coast/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/magic-on-the-icelandic-south-coast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The God of Waterfalls - Goðafoss</title>
+      <link>http://localhost:1313/photos/the-god-of-waterfalls-go%C3%B0afoss/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/the-god-of-waterfalls-go%C3%B0afoss/</guid>
+      <description>&lt;p&gt;Drops of water on my face, my ears ringing from the roar of the waterfall, and a complete and overwhelming feeling of insignificance not just of my person but of all humans.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
