@@ -2,7 +2,7 @@
 title: Stairway to Heaven, literally
 date: 2026-01-24
 locations:
-  - Madeira, Portugal
+  - 🇵🇹 Madeira, Portugal
 years:
   - '2025'
 cover:
