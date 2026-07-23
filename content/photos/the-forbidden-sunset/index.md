@@ -2,7 +2,7 @@
 title: The Forbidden Sunset
 date: 2025-10-19
 locations:
-  - Beijing, China
+  - 🇨🇳 Beijing, China
 years:
   - '2025'
 cover:
