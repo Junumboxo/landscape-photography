@@ -4,7 +4,7 @@ date: 2026-01-24
 locations:
   - 🇵🇹 Madeira, Portugal
 years:
-  - '2025'
+  - '2026'
 cover:
   image: 20260124_182144.jpg
   alt: ''
