@@ -2,7 +2,7 @@
 title: The Last Airbender
 date: 2025-10-25
 locations:
-  - Zhangjiajie, China
+  - 🇨🇳 Zhangjiajie, China
 years:
   - '2025'
 cover:
