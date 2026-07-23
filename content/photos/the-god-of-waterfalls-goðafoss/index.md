@@ -2,7 +2,7 @@
 title: The God of Waterfalls - Goðafoss
 date: 2025-04-29
 locations:
-  - Iceland
+  - 🇮🇸 Iceland
 years:
   - '2025'
 cover:
