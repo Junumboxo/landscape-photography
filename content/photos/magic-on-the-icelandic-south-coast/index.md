@@ -2,7 +2,7 @@
 title: Magic on the icelandic south coast
 date: 2025-05-01
 locations:
-  - Iceland
+  - 🇮🇸 Iceland
 years:
   - '2025'
 cover:
