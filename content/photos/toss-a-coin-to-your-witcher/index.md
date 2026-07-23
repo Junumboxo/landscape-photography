@@ -11,3 +11,5 @@ cover:
   relative: true
 draft: false
 ---
+
+If i could choose a place to get lost, it would be Fanal Forest
