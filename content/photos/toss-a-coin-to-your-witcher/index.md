@@ -2,7 +2,7 @@
 title: Toss A Coin To Your Witcher
 date: 2026-01-23
 locations:
-  - Madeira, Portugal
+  - 🇵🇹 Madeira, Portugal
 years:
   - '2026'
 cover:
