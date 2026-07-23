@@ -2,7 +2,7 @@
 title: Oeschönensee!
 date: 2025-05-15
 locations:
-  - Switzerland
+  - 🇨🇭 Switzerland
 years:
   - '2025'
 cover:
