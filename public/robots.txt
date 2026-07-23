@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://landscape-photography.pages.dev/sitemap.xml
