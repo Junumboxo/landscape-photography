@@ -2,7 +2,7 @@
 title: The Island of Eternal Spring
 date: 2026-01-23
 locations:
-  - Madeira, Portugal
+  - 🇵🇹 Madeira, Portugal
 years:
   - '2026'
 cover:
