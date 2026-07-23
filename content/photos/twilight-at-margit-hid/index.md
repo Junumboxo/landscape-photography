@@ -2,7 +2,7 @@
 title: Twilight at Margit Hid
 date: 2021-10-23
 locations:
-  - Budapest, Hungary
+  - 🇭🇺 Budapest, Hungary
 years:
   - '2021'
 cover:
