@@ -2,7 +2,7 @@
 title: Peace
 date: 2025-10-28
 locations:
-  - Guilin, China
+  - 🇨🇳 Guilin, China
 years:
   - '2025'
 cover:
