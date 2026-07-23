@@ -1,5 +1,5 @@
 ---
-title: The Last Airbender
+title: The Lair of the Last Airbender
 date: 2025-10-25
 locations:
   - 🇨🇳 Zhangjiajie, China
